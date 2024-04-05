@@ -19,12 +19,13 @@ const Home = () => {
                 headerRight: () => (
                     <ScreenHeaderBtn iconUrl={images.profile} dimension="100%" />
                 ),
-                headerTitle:""
+                headerTitle: ""
                 }} 
             />
 
-            <ScrollView >
-                <View style={{
+            <ScrollView showsVerticalScrollIndicator={false} >
+                <View 
+                style={{
                     flex: 1,
                     padding: SIZES.medium
                 }}>

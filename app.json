@@ -8,6 +8,9 @@
       "expo-router"
     ],
     "name": "react_native_jobs",
-    "slug": "react_native_jobs"
+    "slug": "react_native_jobs",
+    "extra": {
+      "RAPID_API_KEY": "2062ce9675msh2322daa8f7996c6p11a159jsn652286706150"
+    }
   }
 }
