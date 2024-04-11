@@ -10,7 +10,21 @@
     "name": "react_native_jobs",
     "slug": "react_native_jobs",
     "extra": {
-      "RAPID_API_KEY": "2062ce9675msh2322daa8f7996c6p11a159jsn652286706150"
-    }
+      "RAPID_API_KEY": "2062ce9675msh2322daa8f7996c6p11a159jsn652286706150",
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "48c5837e-0a1e-447b-8252-79759e0be0d9"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/48c5837e-0a1e-447b-8252-79759e0be0d9"
+    },
+    "android": {},
+    "ios": {}
   }
 }

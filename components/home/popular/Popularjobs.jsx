@@ -18,13 +18,10 @@ const Popularjobs = () => {
     num_pages: 1
   })
 
-  // const [isLoading, setIsLoading] = useState(false);
-  // const [error, setError] = useState(null);
-  // const [data, setData] = useState([]);
 
-
-  const handleCardPress = item => {
-
+  const handleCardPress = (item) => {
+router.push(`/job-details/${item.job_id}`)
+setSelectedJob(item.job_id);
   }
 
 
